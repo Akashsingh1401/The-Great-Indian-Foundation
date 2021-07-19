@@ -1,0 +1,213 @@
+body{
+    background-color: #fcf6f6;
+}
+
+.navbar-brand {
+    color: #c3073f;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.6rem;
+}
+
+.navbar-brand:hover{
+    color:#c3073f;
+}
+
+.nav-link {
+    font-family: 'Sen', sans-serif;
+    color : #6f2232;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: #c9184a;
+}
+
+.custom-nav{
+    background-color: #e9bfbc;
+}
+
+.heroSection #mainHeading{
+    padding-top: 3rem;
+    padding-left: 5.5rem;
+    margin-top: 5rem;
+    font-size: 3.8rem;
+    font-weight: 700;
+    color: #9a1750;
+}
+
+.headingImage img{
+    max-width: 100%;
+    border-radius: 12rem 14rem 19rem 15rem;
+    height: 33rem;
+    padding-top: 4rem;
+}
+
+.heroSection .headingDescription {
+    padding-top: 1rem;
+    padding-left: 5.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #123c69;
+}
+
+.heroSection #donateButton {
+    margin-left: 5.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+}
+
+.dataSection img{
+    display: block;
+    margin: auto;
+}
+
+.dataSection h2{
+    color: #c3073f;
+    font-size: 2.2rem;
+}
+
+.dataSection{
+    background-color: #f6e4e2;
+    margin-top: 100px;
+}
+
+.card-img-top{
+    height: 40vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .card{
+    width: 25rem;
+} */
+
+.owl-prev{
+    left: -30px;
+}
+
+.owl-next{
+    right: -30px;
+}
+
+.owl-prev, .owl-next{
+    position: absolute;
+    top: 90px;
+}
+
+.owl-prev span, .owl-next span{
+    font-size: 80px;
+    color: #6f2232;
+}
+
+
+.owl-theme, .owl-nav[class*="owl-"]:hover{
+    background: transparent;
+}
+
+.testimonial h2{
+    font-size: 2.4rem;
+    color: #c3073f;
+}
+
+.testimonial .card{
+    border: none;
+    background-color: #fcfcfc;
+    box-shadow: inset;
+}
+
+h5{
+    color: #1a1a1a;
+    font-size: 24px;
+}
+
+.testimonial p{
+    color: #123c69;
+    font-weight: 400;
+}
+
+.homescreen-footer{
+    background: #f6e4e2;
+    padding: 3% 10% 0;
+    margin-top: 7rem;
+}
+
+.homescreen-footer .footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.homescreen-footer .footer-content .footer-links{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.homescreen-footer .footer-content .footer-links .footer-list{
+    font-size: 1.2rem;
+}
+
+.footer-list-heading{
+    font-weight: bold;
+    padding-bottom: 1.2rem;
+    color: #c3073f;
+}
+
+.footer-list-item{
+    padding-bottom: 1rem;
+}
+
+.footer-list-item:hover{
+    color: #c9184a;
+    text-decoration: underline;
+}
+
+.footer-list-item a{
+    text-decoration: none;
+    color: #6f2232;
+    font-family: 'Sen', sans-serif;
+}
+
+.footer-social-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer-end-content{
+    color: #6f2232;
+    font-family: 'Sen', sans-serif;
+}
+
+@media (max-width: 756px){
+    .heroSection #mainHeading{
+        padding-left: 3rem;
+        margin-top: 1rem;
+    }
+
+    .heroSection .headingDescription{
+        padding-left: 3rem;
+    }
+
+    .heroSection #donateButton{
+        margin-left: 3rem;
+    }
+
+    .footer-links{
+        width: 100%;
+        vertical-align: auto;
+    }
+    
+    .footer-social-icons span{
+        margin: 3rem;
+    }
+}
+
+@media (max-width: 970px){
+    .footer-links{
+       flex-wrap: wrap;
+    }
+
+}

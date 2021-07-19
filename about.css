@@ -1,0 +1,56 @@
+
+
+body{
+    background: #f6e4e2;
+}
+
+.navbar-brand {
+    color: #c3073f;
+    font-family: 'Acme', sans-serif;
+    font-size: 2.6rem;
+}
+
+.navbar-brand:hover{
+    color:#c3073f;
+}
+
+.nav-link {
+    font-family: 'Sen', sans-serif;
+    color : #6f2232;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: #c9184a;
+}
+
+.custom-nav{
+    background-color: #e9bfbc;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.aboutSection img{
+    display: block;
+    margin: auto;
+}
+
+.aboutSection h2{
+    color: #c3073f;
+    font-size: 2.2rem;
+    text-decoration: underline;
+}
+
+.aboutSection{
+    background-color: #f6e4e2; 
+}
+
+.aboutSection p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    color: #a4133c;
+    line-height: 2.2rem;
+}
